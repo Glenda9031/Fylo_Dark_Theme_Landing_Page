@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*-------------
+  VARIABLES
+------------*/
+:root {
+    --clr-dark-blue-intro-and-email-sign-up-bg: hsl(217, 28%, 15%);
+    --clr-dark-blue-main-bg: hsl(218, 28%, 13%);
+    --clr-dark-blue-footer-bg: hsl(216, 53%, 9%);
+    --clr-dark-blue-testimonials-bg: hsl(219, 30%, 18%);
+  
+  /*Accent*/
+  
+    --clr-cyan-inside-CTA-gradient: hsl(176, 68%, 64%);
+    --clr-blue-inside-CTA-gradient: hsl(198, 60%, 50%);
+    --clr-light-red-error: hsl(0, 100%, 63%);
+  
+  /*Neutral*/
+  
+    --clr-white: hsl(0, 0%, 100%);
+  
+    --fw-400: 400;
+    --fw-700: 700;
+}
+  
+/*-------------
+   RESET
+ -------------*/
+*,
+  *::before,
+  *::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: var(--fw-400);
+  text-align: center;
+  line-height: 1.6;
+  color: var(--clr-white);
+  background-color: var(--clr-dark-blue-testimonials-bg);
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background-color: var(--clr-dark-blue-main-bg);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: var(--fw-700);
+    color: var(--clr-white);
+}
+
+
+
+
+
+
+
+

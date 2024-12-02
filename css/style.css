@@ -66,6 +66,115 @@ h6 {
     color: var(--clr-white);
 }
 
+h1 {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  margin-bottom: -4rem 6rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+h4 {
+  font-size: 0.7rem;
+  letter-spacing: .0625rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+p {
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-white);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*-------------
+   NAV
+ -------------*/
+
+ nav {
+  background-color: var(--clr-dark-blue-intro-and-email-sign-up-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.3rem 3rem 1.3rem;
+ }
+
+ nav .logo {
+  width: 50%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+/*-------------
+   INTRO
+ -------------*/
+
+.intro {
+  background-color: var(--clr-dark-blue-intro-and-email-sign-up-bg);
+}
+
+.intro-img {
+  width: 80%;
+  margin: 0 auto 2.5rem auto;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-content {
+  margin-top: -5rem;
+  background-color: var(--clr-dark-blue-main-bg);
+}
+
+.intro-content p {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  border-radius: 6.25rem;
+  padding: 1rem;
+  width: 65%;
+  font-family: inherit;
+  font-weight: var(--fw-700);
+  background-color: var(--clr-cyan-inside-CTA-gradient);
+  color: var(--clr-white);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+/*-------------
+   ICON-INFO
+ -------------*/
+
+
+
 
 
 

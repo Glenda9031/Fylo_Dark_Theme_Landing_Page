@@ -173,6 +173,77 @@ button:hover {
    ICON-INFO
  -------------*/
 
+.icon-info-container {
+  display: grid;
+  margin-top: 8rem;
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+}
+
+.card h2 {
+  margin-block: 2rem 0.8rem;
+}
+
+.card p {
+  width: 94%;
+  margin: 0 auto 6rem auto;
+}
+
+
+/*-------------
+   STAY-PROD
+ -------------*/
+
+.stay-prod img {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 3rem;
+}
+
+.stay-prod-content {
+  text-align: left;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.stay-prod p {
+  margin-block: 1rem;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: .125rem solid var(--clr-cyan-inside-CTA-gradient);
+  margin-bottom: 0.2rem;
+  width: 40%;
+}
+
+.link-container a {
+  color: var(--clr-cyan-inside-CTA-gradient);
+  font-size: 0.75rem;
+}
+
+.link-container img {
+  margin: 0;
+}
+
+/*-------------
+   TESTIMONIES
+ -------------*/
+
+.testimonies {
+  margin-block: 10rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.test-card-1 {
+  position: relative;
+}
 
 
 

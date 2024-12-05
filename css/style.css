@@ -245,8 +245,102 @@ button:hover {
   position: relative;
 }
 
+.quote-img {
+  /*margin: 0 0 -3.3rem 2.7rem;*/
+  width: 8%;
+  position: absolute;
+  top: -12%;
+  left: 2%;
+}
+
+.test-card {
+  border-radius: 0.3rem;
+  padding: 1.5rem 1rem;
+  background-color: var(--clr-dark-blue-testimonials-bg);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.test-card p {
+  font-size: 0.7rem;
+  text-align: left;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  margin-block: 1rem 0;
+}
+
+.avatar-container img {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.avatar-content {
+  text-align: left;
+  margin-left: 6rem;
+}
+
+.avatar-content p {
+  font-size: 0.46rem;
+  letter-spacing: .0625rem;
+}
 
 
+/*-------------
+   CTA
+ -------------*/
+
+.cta {
+  background-color: var(--clr-dark-blue-intro-and-email-sign-up-bg);
+  padding: 2.5rem 1rem;
+  width: 90%;
+  margin: 0 auto -12rem auto;
+  border-radius: 0.3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.cta p {
+  width: 95%;
+  margin: 1rem auto 2rem auto;
+}
+
+.cta button {
+  width: 90%;
+}
+
+.input-btn {
+  background-color: var(--clr-white);
+  text-align: left;
+}
+
+.input-btn input {
+  border: none;
+  margin-left: 1rem;
+  outline: none;
+}
+
+.input-btn input:placeholder {
+  font-family: inherit;
+  color: var();
+}
+
+small {
+  color: var(--clr-light-red-error);
+  margin: 0.2rem 0 0.7rem -1.6rem;
+  display: block;
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+/*-------------
+   FOOTER
+ -------------*/
 
 
 

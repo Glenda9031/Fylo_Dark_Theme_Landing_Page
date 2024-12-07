@@ -342,7 +342,87 @@ small {
    FOOTER
  -------------*/
 
+footer {
+  background-color: var(--clr-dark-blue-footer-bg);
+  padding: 12rem 1rem 0 1rem;
+  text-align: left;
+}
 
+footer .address {
+  display: flex;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+footer .address img {
+  width: 13%;
+  height: 19%;
+}
+
+footer .address p {
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+}
+
+.phone,
+.address {
+  display: flex;
+  margin-bottom: 1.3rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.about-us-container,
+.contact-us-container {
+  display: flex;
+  gap: 1rem;
+  margin-block: 2rem 0;
+}
+
+.footer-logo {
+  width: 60%;
+  margin-block: 4rem 3rem;
+}
+
+.footer-content {
+  display: grid;
+  gap: 2rem;
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.fa {
+  width: 2rem;
+  height: 2rem;
+  margin-block: 5rem 3rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: .125rem solid var(--clr-white);
+  fill: var(--clr-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fa-facebook:hover {
+  color: #0165e1;
+  border-color: #0165e1;
+}
+
+.fa-twitter:hover {
+  color: var(--clr-cyan-inside-CTA-gradient);
+  border-color: var(--clr-cyan-inside-CTA-gradient);
+}
+
+.fa-instagram:hover {
+  color: #833ab4;
+  border-color: #833ab4;
+}
 
 
 

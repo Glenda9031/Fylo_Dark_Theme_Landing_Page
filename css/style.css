@@ -424,6 +424,156 @@ footer .address p {
   border-color: #833ab4;
 }
 
+/*-------------
+   MEDIA QUERIES
+ -------------*/
 
+@media (min-width: 35.5rem) {
+  main {
+    width: 90%;
+    padding-top: 2rem;
+  }
+
+  h1 {
+    margin: -18rem auto 6rem auto;
+    width: 65%;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-right: 6rem;
+  }
+
+  .intro-content p {
+    width: 55%;
+  }
+
+  .intro-content-button {
+    width: 35%;
+  }
+
+  nav {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .intro-img {
+    margin-bottom: 6rem;
+  }
+
+  .quote-img {
+    top: -9%;
+    left: 3%;
+    width: 14%;
+  }
+
+  .stay-prod {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .stay-prod img {
+    margin-bottom: 0%;
+  }
+
+  .icon-info-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem 0;
+  }
+
+  .testimonies {
+    grid-template-columns: repeat(3, 1fr);
+    padding-inline: 3rem;
+  }
+
+  .test-card {
+    padding: 2rem 1.5rem;
+    width: 95%;
+  }
+
+  .cta {
+    padding-bottom: 0;
+  }
+
+  .btn-container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+  }
+
+  .input-btn {
+    margin: 0;
+    height: 3rem;
+  }
+
+  .cta-btn {
+    height: 3rem;
+  }
+
+  small {
+    margin-left: 3rem !important;
+    text-align: left;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .footer-content > * {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+
+  .phone-email,
+  .about-us-container,
+  .contact-us-container {
+     gap: 0.5rem;
+  }
+
+  .phone {
+    margin-bottom: 0.5rem;
+  }
+
+  .social-media-container {
+    gap: 0.3rem;
+  }
+
+  .fa {
+    margin-top: 0;
+  }
+
+  footer .address {
+    gap: 0.5rem;
+  }
+
+  footer .address p {
+    font-size: 0.95rem;
+    margin-top: 0;
+    font-size: 0.7rem !important;
+    width: 10rem;
+  }
+
+  footer .address img {
+    width: 6%;
+    height: auto;
+    margin-top: 0.3rem;
+  }
+
+  footer .phone-email img {
+    width: 10%;
+    height: auto;
+  }
+}
+
+@media (min-width: 48rem) {
+  
+}
 
 

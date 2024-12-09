@@ -573,7 +573,142 @@ footer .address p {
 }
 
 @media (min-width: 48rem) {
+  main {
+    max-width: 87.5rem;
+    padding-top: 2rem;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+    line-height: 1.5;
+    margin-top: -34rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+  }
+
+  h5 {
+    font-size: 2.1rem;
+  }
+
+  .intro-img {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+  }
+
+  .intro-content p {
+    width: 43%;
+    font-size: 1.3rem;
+  }
+
+  .intro-content-button {
+    width: 20%;
+  }
+
+  .icon-info {
+    margin-bottom: 6rem;
+  }
+
+  .icon-info p {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .stay-prod img {
+    margin-bottom: 0;
+  }
+
+  .stay-prod-content {
+    width: 46%;
+  }
+
+  .stay-prod-content p {
+    font-size: 1.1rem;
+  }
+
+  .link-container {
+    width: 30%;
+    padding-bottom: 0.3rem;
+  }
+
+  .link-container a {
+    font-size: 1.05rem;
+  }
+
+  .testimonies {
+    grid-template-columns: repeat(autofit, minmax(15rem, 1fr));
+    margin-inline: 5rem;
+  }
+
+  .testimonies p {
+    font-size: 1rem;
+  }
+
+  .test-card {
+    padding: 2rem 1.5rem;
+    width: 95%;
+  }
+
+  .quote-img {
+    top: -18%;
+    left: 3%;
+    width: 14%;
+  }
+
+  .cta {
+    width: 60%;
+    margin-bottom: -7rem;
+  }
+
+  .cta p {
+    padding-inline: 4rem;
+  }
+
+  small {
+    margin-left: 3.8rem !important;
+  }
+
+  .footer-logo {
+    margin-top: 0.5rem;
+  }
+
+  .footer-content {
+    justify-content: space-between;
+    padding-bottom: 8rem;
+  }
+
+  .footer-content > * {
+    font-size: 1.1rem;
+  }
+
+  footer .address {
+    gap: 2rem;
+  }
+
+  footer .address p {
+    font-size: 0.9rem !important;
+    width: 20rem;
+  }
+
+  .phone-email,
+  .about-us-container,
+  .contact-us-container {
+    gap: 1rem;
+  }
   
+  .phone {
+    margin-bottom: 1rem;
+  }
+
+  .social-media-container {
+    gap: 1rem;
+  }
 }
 
 

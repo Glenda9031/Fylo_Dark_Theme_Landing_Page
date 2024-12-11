@@ -1,124 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*-------------
-  VARIABLES
-------------*/
-:root {
-    --clr-dark-blue-intro-and-email-sign-up-bg: hsl(217, 28%, 15%);
-    --clr-dark-blue-main-bg: hsl(218, 28%, 13%);
-    --clr-dark-blue-footer-bg: hsl(216, 53%, 9%);
-    --clr-dark-blue-testimonials-bg: hsl(219, 30%, 18%);
-  
+   VARIABLES
+ -------------*/
+ :root {
+  --clr-dark-blue-intro-and-email-sign-up-bg: hsl(217, 28%, 15%);
+  --clr-dark-blue-main-bg: hsl(218, 28%, 13%);
+  --clr-dark-blue-footer-bg: hsl(216, 53%, 9%);
+  --clr-dark-blue-testimonials-bg: hsl(219, 30%, 18%);
+
   /*Accent*/
-  
-    --clr-cyan-inside-CTA-gradient: hsl(176, 68%, 64%);
-    --clr-blue-inside-CTA-gradient: hsl(198, 60%, 50%);
-    --clr-light-red-error: hsl(0, 100%, 63%);
-  
+
+  --clr-cyan-inside-CTA-gradient: hsl(176, 68%, 64%);
+  --clr-blue-inside-CTA-gradient: hsl(198, 60%, 50%);
+  --clr-light-red-error: hsl(0, 100%, 63%);
+
   /*Neutral*/
-  
-    --clr-white: hsl(0, 0%, 100%);
-  
-    --fw-400: 400;
-    --fw-700: 700;
+
+  --clr-white: hsl(0, 0%, 100%);
+
+  --fw-400: 400;
+  --fw-700: 700;
 }
-  
+
 /*-------------
    RESET
  -------------*/
 *,
-  *::before,
-  *::after {
+*::before,
+*::after {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--clr-dark-blue-testimonials-bg);
+  color: var(--clr-white);
   font-weight: var(--fw-400);
   text-align: center;
-  line-height: 1.6;
-  color: var(--clr-white);
-  background-color: var(--clr-dark-blue-testimonials-bg);
   display: grid;
   place-items: center;
 }
-
 main {
   background-color: var(--clr-dark-blue-main-bg);
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  max-width: 100%;
+  display: block;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: var(--fw-700);
-    color: var(--clr-white);
+  font-family: "Raleway", sans-serif;
+  font-weight: var(--fw-700);
 }
-
 h1 {
   font-size: 1.6rem;
   line-height: 1.7;
-  margin-bottom: -4rem 6rem;
+  margin-block: -4rem 6rem;
 }
-
 h2 {
   font-size: 1.1rem;
 }
-
 h3 {
   font-size: 1.1rem;
 }
-
 h4 {
   font-size: 0.7rem;
-  letter-spacing: .0625rem;
+  letter-spacing: 1px;
 }
-
 h5 {
   font-size: 1.1rem;
 }
-
 p {
   line-height: 1.7;
 }
-
 a {
   text-decoration: none;
   color: var(--clr-white);
 }
-
 .container {
   width: 90%;
   margin: 0 auto;
 }
-
 /*-------------
-   NAV
+   NAV 
  -------------*/
-
- nav {
+nav {
   background-color: var(--clr-dark-blue-intro-and-email-sign-up-bg);
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 2rem 1.3rem 3rem 1.3rem;
- }
-
- nav .logo {
+}
+nav .logo {
   width: 50%;
 }
-
 .nav-links {
   display: flex;
   gap: 1rem;
@@ -128,14 +111,13 @@ a {
 /*-------------
    INTRO
  -------------*/
-
 .intro {
   background-color: var(--clr-dark-blue-intro-and-email-sign-up-bg);
 }
 
 .intro-img {
   width: 80%;
-  margin: 0 auto 2.5rem auto;
+  margin: 0 auto -2.5rem auto;
   position: relative;
   z-index: 2;
   display: flex;
@@ -152,9 +134,8 @@ a {
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
-
 button {
-  border-radius: 6.25rem;
+  border-radius: 100px;
   padding: 1rem;
   width: 65%;
   font-family: inherit;
@@ -164,7 +145,6 @@ button {
   border: none;
   cursor: pointer;
 }
-
 button:hover {
   opacity: 0.5;
 }
@@ -172,43 +152,35 @@ button:hover {
 /*-------------
    ICON-INFO
  -------------*/
-
-.icon-info-container {
+.icon-info {
   display: grid;
   margin-top: 8rem;
 }
-
 .card {
   display: grid;
   justify-items: center;
 }
-
 .card h2 {
   margin-block: 2rem 0.8rem;
 }
-
 .card p {
   width: 94%;
   margin: 0 auto 6rem auto;
 }
 
-
 /*-------------
    STAY-PROD
  -------------*/
-
 .stay-prod img {
   display: grid;
   justify-items: center;
   margin-bottom: 3rem;
 }
-
 .stay-prod-content {
   text-align: left;
   width: 96%;
   margin: 0 auto;
 }
-
 .stay-prod p {
   margin-block: 1rem;
 }
@@ -217,16 +189,14 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: .125rem solid var(--clr-cyan-inside-CTA-gradient);
-  margin-bottom: 0.2rem;
+  border-bottom: 2px solid var(--clr-cyan-inside-CTA-gradient);
+  padding-bottom: 0.2rem;
   width: 40%;
 }
-
 .link-container a {
   color: var(--clr-cyan-inside-CTA-gradient);
   font-size: 0.75rem;
 }
-
 .link-container img {
   margin: 0;
 }
@@ -234,17 +204,14 @@ button:hover {
 /*-------------
    TESTIMONIES
  -------------*/
-
 .testimonies {
   margin-block: 10rem;
   display: grid;
   gap: 1.5rem;
 }
-
 .test-card-1 {
   position: relative;
 }
-
 .quote-img {
   /*margin: 0 0 -3.3rem 2.7rem;*/
   width: 8%;
@@ -252,46 +219,38 @@ button:hover {
   top: -12%;
   left: 2%;
 }
-
 .test-card {
   border-radius: 0.3rem;
-  padding: 1.5rem 1rem;
   background-color: var(--clr-dark-blue-testimonials-bg);
+  padding: 1.5rem 1rem;
   width: 80%;
   margin: 0 auto;
 }
-
 .test-card p {
   font-size: 0.7rem;
   text-align: left;
 }
-
 .avatar-container {
   display: flex;
-  justify-content: center;
+  align-items: center;
   margin-block: 1rem 0;
 }
-
 .avatar-container img {
   border-radius: 50%;
   width: 20%;
 }
-
 .avatar-content {
   text-align: left;
-  margin-left: 6rem;
+  margin-left: -6rem;
 }
-
 .avatar-content p {
   font-size: 0.46rem;
-  letter-spacing: .0625rem;
+  letter-spacing: 1px;
 }
-
 
 /*-------------
    CTA
  -------------*/
-
 .cta {
   background-color: var(--clr-dark-blue-intro-and-email-sign-up-bg);
   padding: 2.5rem 1rem;
@@ -306,34 +265,28 @@ button:hover {
   width: 95%;
   margin: 1rem auto 2rem auto;
 }
-
 .cta button {
   width: 90%;
 }
-
 .input-btn {
   background-color: var(--clr-white);
   text-align: left;
 }
-
 .input-btn input {
   border: none;
   margin-left: 1rem;
   outline: none;
 }
-
-.input-btn input:placeholder {
+.input-btn input::placeholder {
   font-family: inherit;
   color: var();
 }
-
 small {
   color: var(--clr-light-red-error);
   margin: 0.2rem 0 0.7rem -1.6rem;
   display: block;
   visibility: hidden;
 }
-
 .show {
   visibility: visible;
 }
@@ -341,71 +294,63 @@ small {
 /*-------------
    FOOTER
  -------------*/
-
 footer {
   background-color: var(--clr-dark-blue-footer-bg);
   padding: 12rem 1rem 0 1rem;
   text-align: left;
 }
-
 footer .address {
   display: flex;
   gap: 1.5rem;
   align-items: start;
 }
-
 footer .address img {
   width: 13%;
   height: 19%;
 }
-
 footer .address p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   margin-top: -0.5rem;
 }
 
 .phone,
-.address {
+.email {
   display: flex;
   margin-bottom: 1.3rem;
   gap: 1rem;
   align-items: center;
 }
-
 .about-us-container,
 .contact-us-container {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
   margin-block: 2rem 0;
 }
-
 .footer-logo {
   width: 60%;
   margin-block: 4rem 3rem;
 }
-
 .footer-content {
   display: grid;
   gap: 2rem;
 }
-
 .social-media-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
-
 .fa {
   width: 2rem;
   height: 2rem;
   margin-block: 5rem 3rem;
   padding: 0.5rem;
   border-radius: 50%;
-  border: .125rem solid var(--clr-white);
+  border: 2px var(--clr-white) solid;
   fill: var(--clr-white);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -413,12 +358,10 @@ footer .address p {
   color: #0165e1;
   border-color: #0165e1;
 }
-
 .fa-twitter:hover {
   color: var(--clr-cyan-inside-CTA-gradient);
   border-color: var(--clr-cyan-inside-CTA-gradient);
 }
-
 .fa-instagram:hover {
   color: #833ab4;
   border-color: #833ab4;
@@ -428,131 +371,111 @@ footer .address p {
    MEDIA QUERIES
  -------------*/
 
-@media (min-width: 35.5rem) {
+@media (min-width: 568px) {
   main {
-    width: 90%;
+    max-width: 1000;
     padding-top: 2rem;
   }
-
   h1 {
     margin: -18rem auto 6rem auto;
     width: 65%;
   }
-
   h2 {
     font-size: 1rem;
   }
-  
   h3 {
     font-size: 1.5rem;
     margin-right: 6rem;
   }
-
+  .intro-content {
+    background-color: transparent;
+  }
   .intro-content p {
     width: 55%;
   }
-
-  .intro-content-button {
-    width: 35%;
+  .intro-content button {
+    width: 30%;
   }
 
   nav {
     width: 90%;
     margin: 0 auto;
   }
-
   .intro-img {
     margin-bottom: 6rem;
   }
-
   .quote-img {
     top: -9%;
     left: 3%;
     width: 14%;
   }
-
   .stay-prod {
     display: flex;
     gap: 2rem;
     align-items: center;
   }
-
   .stay-prod img {
-    margin-bottom: 0%;
+    margin-bottom: 0;
   }
 
-  .icon-info-container {
+  .icon-info {
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem 0;
   }
-
   .testimonies {
     grid-template-columns: repeat(3, 1fr);
     padding-inline: 3rem;
   }
-
   .test-card {
     padding: 2rem 1.5rem;
     width: 95%;
   }
-
   .cta {
     padding-bottom: 0;
   }
-
   .btn-container {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 2fr 1fr;
   }
 
   .input-btn {
     margin: 0;
     height: 3rem;
   }
-
   .cta-btn {
     height: 3rem;
   }
-
   small {
-    margin-left: 3rem !important;
+    margin-left: 3.3rem !important;
     text-align: left;
   }
-
   .footer-content {
     display: flex;
     align-items: flex-start;
     gap: 2rem;
     margin-bottom: 3rem;
   }
-
   .footer-content > * {
     margin: 0;
     font-size: 0.7rem;
   }
-
   .phone-email,
   .about-us-container,
   .contact-us-container {
-     gap: 0.5rem;
+    gap: 0.5rem;
   }
-
   .phone {
     margin-bottom: 0.5rem;
   }
-
   .social-media-container {
     gap: 0.3rem;
   }
-
   .fa {
     margin-top: 0;
   }
-
   footer .address {
     gap: 0.5rem;
   }
-
   footer .address p {
     font-size: 0.95rem;
     margin-top: 0;
@@ -565,35 +488,16 @@ footer .address p {
     height: auto;
     margin-top: 0.3rem;
   }
-
   footer .phone-email img {
     width: 10%;
     height: auto;
   }
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
   main {
-    max-width: 87.5rem;
+    max-width: 1440;
     padding-top: 2rem;
-  }
-
-  h1 {
-    font-size: 2.7rem;
-    line-height: 1.5;
-    margin-top: -34rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-
-  h3 {
-    font-size: 2.6rem;
-  }
-
-  h5 {
-    font-size: 2.1rem;
   }
 
   .intro-img {
@@ -601,75 +505,75 @@ footer .address p {
     margin: 0 auto;
     margin-bottom: 8rem;
   }
+  h1 {
+    font-size: 2.7rem;
+    line-height: 1.5;
+    margin-top: -34rem;
+  }
 
   .intro-content p {
     width: 43%;
     font-size: 1.3rem;
   }
-
-  .intro-content-button {
+  .intro-content button {
     width: 20%;
   }
-
   .icon-info {
     margin-bottom: 6rem;
   }
-
   .icon-info p {
     width: 60%;
     margin: 0 auto;
+  }
+  h2 {
+    font-size: 1.3rem;
   }
 
   .stay-prod img {
     margin-bottom: 0;
   }
-
   .stay-prod-content {
     width: 46%;
   }
-
+  h3 {
+    font-size: 2.6rem;
+  }
+  h5 {
+    font-size: 2.1rem;
+  }
   .stay-prod-content p {
     font-size: 1.1rem;
   }
-
   .link-container {
     width: 30%;
     padding-bottom: 0.3rem;
   }
-
   .link-container a {
     font-size: 1.05rem;
   }
-
   .testimonies {
-    grid-template-columns: repeat(autofit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     margin-inline: 5rem;
   }
-
   .testimonies p {
     font-size: 1rem;
   }
-
   .test-card {
     padding: 2rem 1.5rem;
     width: 95%;
   }
-
   .quote-img {
     top: -18%;
     left: 3%;
     width: 14%;
   }
-
   .cta {
     width: 60%;
     margin-bottom: -7rem;
   }
-
   .cta p {
     padding-inline: 4rem;
   }
-
   small {
     margin-left: 3.8rem !important;
   }
@@ -677,7 +581,6 @@ footer .address p {
   .footer-logo {
     margin-top: 0.5rem;
   }
-
   .footer-content {
     justify-content: space-between;
     padding-bottom: 8rem;
@@ -686,29 +589,23 @@ footer .address p {
   .footer-content > * {
     font-size: 1.1rem;
   }
-
-  footer .address {
-    gap: 2rem;
-  }
-
-  footer .address p {
-    font-size: 0.9rem !important;
-    width: 20rem;
-  }
-
   .phone-email,
   .about-us-container,
   .contact-us-container {
     gap: 1rem;
   }
-  
   .phone {
     margin-bottom: 1rem;
   }
-
   .social-media-container {
     gap: 1rem;
   }
+
+  footer .address {
+    gap: 2rem;
+  }
+  footer .address p {
+    font-size: 0.9rem !important;
+    width: 20rem;
+  }
 }
-
-
